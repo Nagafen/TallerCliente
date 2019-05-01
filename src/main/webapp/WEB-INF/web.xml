@@ -12,65 +12,11 @@
         <welcome-file>default.htm</welcome-file>
         <welcome-file>default.jsp</welcome-file>
     </welcome-file-list>
-    
-    <servlet>
-        <servlet-name>Hello</servlet-name>
-        <servlet-class>com.crunchify.jsp.servlet.HelloCrunchify</servlet-class>
-    </servlet>
-    
-    <servlet>
-        <servlet-name>ChartServlet</servlet-name>
-        <servlet-class>com.crunchify.jsp.servlet.ChartServlet</servlet-class>
-    </servlet>
-       
-     <servlet>
-        <servlet-name>BarServlet</servlet-name>
-        <servlet-class>com.crunchify.jsp.servlet.BarServlet</servlet-class>
-    </servlet>
-    
-    <servlet>
-        <servlet-name>HSSFCreate</servlet-name>
-        <servlet-class>com.crunchify.jsp.servlet.HSSFCreate</servlet-class>
-    </servlet>
-    
-    <servlet>
-        <servlet-name>Mail</servlet-name>
-        <servlet-class>com.crunchify.jsp.servlet.Mail</servlet-class>
-    </servlet>
-    
-    
-    <servlet-mapping>
-        <servlet-name>Hello</servlet-name>
-        <url-pattern>/CrunchifyServlet</url-pattern>
-    </servlet-mapping>
-    
-     <servlet-mapping>
-        <servlet-name>ChartServlet</servlet-name>
-        <url-pattern>/ChartServlet</url-pattern>
-    </servlet-mapping>
-    
-    <servlet-mapping>
-        <servlet-name>BarServlet</servlet-name>
-        <url-pattern>/BarServlet</url-pattern>
-    </servlet-mapping>
-    
-    
-    <servlet-mapping>
-        <servlet-name>HSSFCreate</servlet-name>
-        <url-pattern>/HSSFCreate</url-pattern>
-    </servlet-mapping>
-    
-    <servlet-mapping>
-        <servlet-name>Mail</servlet-name>
-        <url-pattern>/Mail</url-pattern>
-    </servlet-mapping>
-    
+   
     
     <servlet>
         <servlet-name>jersey-serlvet</servlet-name>
-	<servlet-class>
-            com.sun.jersey.spi.container.servlet.ServletContainer
-        </servlet-class>
+	<servlet-class> com.sun.jersey.spi.container.servlet.ServletContainer   </servlet-class>
 	<init-param>
 	    <param-name>com.sun.jersey.config.property.packages</param-name>
 	    <param-value>com.mkyong.rest</param-value>

@@ -3,14 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.o7planning.restfulcrud.model;
- 
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlRootElement;
- 
-@XmlRootElement(name = "employee")
-@XmlAccessorType(XmlAccessType.FIELD)
 public class Employee {
  
     private String empNo;

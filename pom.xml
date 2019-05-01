@@ -10,6 +10,26 @@
     
     
     <dependencies>
+        
+        <dependency>
+	<groupId>com.sun.jersey</groupId>
+	<artifactId>jersey-client</artifactId>
+	<version>1.8</version>
+</dependency>
+
+<dependency>
+		<groupId>com.fasterxml.jackson.core</groupId>
+		<artifactId>jackson-databind</artifactId>
+		<version>2.6.3</version>
+	</dependency>
+        
+<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-json</artifactId>
+			<version>1.8</version>
+		</dependency>
+		
+
         <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-web-api</artifactId>
@@ -17,39 +37,9 @@
             <version>6.0</version>
         </dependency>
         <!-- Glassfish -->
-        <dependency>
-            <groupId>org.glassfish.extras</groupId>
-            <artifactId>glassfish-embedded-web</artifactId>
-            <version>3.1.1</version>
-        </dependency>	
+       
         
-        <!-- JDBC Driver -->
-        <dependency>
-            <groupId>postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <version>9.0-801.jdbc4</version>
-        </dependency>
-                
-        <dependency>
-            <artifactId>jfreechart</artifactId>
-            <groupId>org.jfree</groupId>
-            <version>1.0.14</version>
-        </dependency>
-                
-        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
-        <dependency>
-            <groupId>org.apache.poi</groupId>
-            <artifactId>poi</artifactId>
-            <version>3.16</version>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/javax.mail/mail -->
-        <dependency>
-            <groupId>javax.mail</groupId>
-            <artifactId>mail</artifactId>
-            <version>1.4</version>
-        </dependency>
-
+      
         <dependency>
             <groupId>com.sun.jersey</groupId>
             <artifactId>jersey-server</artifactId>
@@ -118,6 +108,6 @@
         </pluginRepository>
     </pluginRepositories>
     
-    <name>petcatalogGlassFish</name>
+    <name>Client</name>
 </project>
 
